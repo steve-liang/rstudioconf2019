@@ -84,9 +84,20 @@
 
 #### Spatial Data Science in the Tidyverse
 
+- How to tackle **Time-dependent** spatial data series? - spatiotemporal
+- `stars` package
+
 #### Getting it Right with Writing Reliable R Code
 
-
+- How to determine code quality?
+    - execution feedback
+    - user feedback
+    - best way, measure with tests: functional, integration, performance
+- Unit test
+- testthat, usethis::use_this/devtools/testit...
+- helpful when developing packages
+- for shiny test - shinytest
+- some resources: Hadley's R Pacakge/Jenny Bryan's video on "Code smells and feels" from useR!2018
 
 ### Day 2
 --------
