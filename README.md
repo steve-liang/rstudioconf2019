@@ -104,19 +104,85 @@
 
 #### R Markdown the Big Picture
 
+- R Markdown - the definitive guide book
+- 75% - 90% of preclinical results CANNOT be reproduced (estimate)...!!!
+- 6 of 18 can be replicated in Economics, 13 of 21 in Nature & Science...!!!
+- Cost of $28B in US alone
+- Science vs. Math
+
 #### Create Beautiful PDF with RMarkdown + CSS
+
+- Believe in HTML and Web, because it's the most accessible. Easy to integrate images, table etc
+- Package: `pagedown` (requires Pandoc 2.0)
+- output types: pagedown::html_paged/pagedown::business_card/pagedown::html_resume/pagedown::poster_relaxed/pagedown::html_letter/pagedown::book_crc
+- Don't waste time on trivial settings (typesetting in academia paper world). People spent too much effort on.
 
 #### Introducing the gt package
 
+- basic workflow: table data (tibble/data frame) -> gt object -> gt table
+- Has table header, row labels, column labels, data formatting, footnotes
+- 2 main function families: `tab_*`, `fmt_*`
+- many other great functions, check this out!
+- Send email. `blastula`
+- Currently not support HTML/RTF/PDF, unable to export to Excel but in the pipeline
+
 #### The lazy and easily distracted report writer
+
+- People easily get distracted from other people/meetings/jobs, so use rmarkdown report to track progress
 
 #### Effective use of Shiny Modules in app development
 
+- bit.ly/modules2019
+- Facilitate Collaboration!
+- Careful Design + Input & Return
+- to () or not (), need practice
+- Ames Housing App on Shiny gallery
+
 #### Reactlog 2.0
+
+- Built on cytoscape.js
+- install_github("rstudio/reactlog") will be integrated in Shiny 1.3.0
+- Cmd + F3 -> Awesome flow chart to show reactivity 
 
 #### Integrating React.js and Shiny
 
+- Idea came from MapboxGL
+- bit.ly/reactR-tutorial
+- github.com/react-R
+- Why? You found a cool React-based lib and you want to use it from R. You want to build a cool React-based lib and use it from R
+- React Component, 
+    - very similar to HTML tags except: user-definable; 
+    - Contain props and other Components
+    - ...
+- Make an HTMLWidget
+    1. Scaffold R package with `usethis`
+    2. Scaffold JS tool config with reactR
+    3. Build JS with `yarn`/`webpack`
+- Remaining work: inputs
+    1. Shiny.onInputChange
+    2. Goal: Send values without custom JS
+    3. With Kent built 2 prototypes
+
 #### Introducing ipc for Shiny
+
 
 #### Keynote 3 - The Unreasonable Effectiveness of Public Work (David Robinson)
 
+- Advocating public work - Tweet, Blog...
+- Start a blog
+    - Build a public portfolio
+    - Practice writing and visualization
+    - Teach/give advice in a way that _scales_
+    - Use blogdown
+    - Tweet @drob 
+- Think about writing a book
+    - Have a good amount to say
+    - 
+
+#### Panel Discussion
+
+- When DS Failed?
+    - DS should come out and say NO when there's need. Need to help PM to better navigate products. 
+    - Build stuffs that have advantage over things that couldn've been done in Excel...
+    - Avoid caring about models over actually business problems. Let go the ego.
+    
