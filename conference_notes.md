@@ -102,4 +102,21 @@
 ### Day 2
 --------
 
+#### R Markdown the Big Picture
+
+#### Create Beautiful PDF with RMarkdown + CSS
+
+#### Introducing the gt package
+
+#### The lazy and easily distracted report writer
+
+#### Effective use of Shiny Modules in app development
+
+#### Reactlog 2.0
+
+#### Integrating React.js and Shiny
+
+#### Introducing ipc for Shiny
+
+#### Keynote 3 - The Unreasonable Effectiveness of Public Work (David Robinson)
 
