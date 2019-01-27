@@ -23,7 +23,7 @@
     - Cultural: don't realize; don't know best practice; don't anticipate/budget for the effort required; don't come from a culture that wrorries about runtime efficiency
     - Organizational: IT skeptical, conservatism; Skeptical of DS creating production artifacts; Skeptical of R as a technologies; Engeerining not on your side; 
     - Technical: Shiny addresses web app but effort wasn't made in SDE; R can be slow, multi-threaded
-- shinytest (UI test)/shinyloadtest (Shiny test)/profvis (profiler)/Plot caching (speed up plots)/Async (Last resort to deal with slowiness)
+- **shinytest (UI test)/shinyloadtest (Shiny test)/profvis (profiler)/Plot caching (speed up plots)/Async (Last resort to deal with slowiness)**
 - Workflow: shinyloadtest -> profvis -> work on code (refactor, dont loop... async) -> Repeat!
 - Plot caching: reqs: slow plots; significant time spends; most users are likely to request the same few plots
 
@@ -76,7 +76,7 @@
 - Annotate with #*
 - OpenAPI Specification
 - Full specification can be manipulated at runtime
-- Shiny is good but time to expose via API for broader audience (Software Engineer in other language) to consume
+- **Shiny is good but time to expose via API for broader audience (Software Engineer in other language) to consume**
 
 #### Tidy Time Series Analysis
 
@@ -121,10 +121,10 @@
 
 - basic workflow: table data (tibble/data frame) -> gt object -> gt table
 - Has table header, row labels, column labels, data formatting, footnotes
-- 2 main function families: `tab_*`, `fmt_*`
+- **2 main function families: `tab_*`, `fmt_*`**
 - many other great functions, check this out!
 - Send email. `blastula`
-- Currently not support HTML/RTF/PDF, unable to export to Excel but in the pipeline
+- **Currently supports HTML/RTF/PDF, unable to export to Excel but in the pipeline**
 
 #### The lazy and easily distracted report writer
 
